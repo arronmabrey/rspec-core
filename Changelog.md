@@ -20,6 +20,9 @@ Enhancements:
 * Issue seed notification at start (as well as the end) of the reporter
   run. (Arlandis Word, #1761)
 * Improve the documentation of around hooks. (Jim Kingdon, #1772)
+* Emit warnings when `:suite` hooks are registered on an example group
+  (where it has always been ignored) or are registered with metadata
+  (which has always been ignored). (Myron Marston, #1805)
 
 Bug Fixes:
 
